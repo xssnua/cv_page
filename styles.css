@@ -1,0 +1,89 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(17, 8, 23);
+    color: white;
+}
+
+.header {
+    text-align: center;
+}
+
+.header__img {
+    padding: 20px;
+    width: 300px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.header__title {
+    font-size: 28px;
+}
+
+.header__subtitle {
+    color: rgb(200, 136, 241);
+}
+
+.main {
+    text-align: center;
+    border: 2px solid white;
+}
+
+.section__skills ol{
+    list-style: none;
+}
+
+.separator {
+    width: 50%;
+    height: 3px;
+    background-color: rgb(200, 136, 241);
+}
+
+.main__video-iframe {
+    width: 800px;
+    height: 490px;
+    border: none;
+}
+
+.ed__table {
+    border-collapse: collapse;
+    width: 100%;
+} 
+
+.ed__table th,
+.ed__table td {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.quote__text {
+    font-size: 32px;
+}
+
+.interaction__form {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.form__control{
+    width: 100%;
+}
+
+.conrol--text {
+    margin-top: 10px;
+    width: 70%;
+}
+
+.form__submit {
+    display: block;
+    margin: 0 auto;
+}
+
+.footer {
+    height: 100px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.address__link {
+    color: currentColor;
+}
